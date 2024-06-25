@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ColetaModel>
+<h1>Coletas</h1>
+@if (!string.IsNullOrEmpty((String)TempData["mensagemSucesso"]))
+{
+    <div class="alert alert-warning" role="alert">@TempData["mensagemSucesso"]</div>
+}
+<p>
+    <a asp-action="Create" asp-controller="Coleta">Nova Coleta</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Email</th>
+            <th>Nascimento</th>
+            <th>Representante</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var coleta in Model)
+        {
+            
+        <tr>
+            <td>
+                <label>@coleta.ColetaId</label>
+            </td>
+            <td>
+                <label>@coleta.ColetaNome</label>
+            </td>
+            <td>
+                <label>@coleta.ColetaDescricao</label>
+            </td>
+            <td>
+                <label>@coleta.Email</label>
+            </td>
+            <td>
+                <label>@coleta.DataColeta</label>
+            </td>
+            <td>
+                <label>@coleta.Representante</label>
+            </td>
+            <td>
+                    <a asp-controller="Coleta"
+                       asp-action="Edit"
+                       asp-route-id="@coleta.ColetaId">Editar</a>
+                    <a asp-controller="Coleta"
+                       asp-action="Detail"
+                       asp-route-id="@coleta.ColetaId">Consultar</a>
+                    <a asp-controller="Coleta"
+                       asp-action="Delete"
+                       asp-route-id="@coleta.ColetaId">Excluir</a>
+            </td>
+        </tr>
+        }
+             
+         
+    </tbody>
+</table>

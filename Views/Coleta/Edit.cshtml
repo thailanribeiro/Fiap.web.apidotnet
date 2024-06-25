@@ -1,0 +1,53 @@
+﻿@model Fiap.web.apidotnet.Models.ColetaModel
+<h1>Cliente</h1>
+<h4>Editar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <!-- IMPORTANTE elemento form -->
+        <form asp-action="Edit" asp-controller="Coleta">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <!-- IMPORTANTE propriedade ClienteId oculto -->
+            <input type="hidden" asp-for="ColetaId" />
+            <div class="form-group">
+                <label asp-for="ColetaNome" class="control-label"></label>
+                <input asp-for="ColetaNome" class="form-control" />
+                <span asp-validation-for="ColetaNome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ColetaDescricao" class="control-label"></label>
+                <input asp-for="ColetaDescricao" class="form-control" />
+                <span asp-validation-for="ColetaDescricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataColeta" class="control-label"></label>
+                <input asp-for="DataColeta" class="form-control" />
+                <span asp-validation-for="DataColeta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacao" class="control-label"></label>
+                <input asp-for="Observacao" class="form-control" />
+                <span asp-validation-for="Observacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RepresentanteId" class="control-label"></label>
+                <select asp-for="RepresentanteId" asp-items="@ViewBag.Representantes" class="form-select">
+                    <option value="0">Selecione</option>
+                </select>
+                <span asp-validation-for="RepresentanteId" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Gravar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>

@@ -1,0 +1,59 @@
+﻿@model Fiap.web.apidotnet.Models.ColetaModel
+
+
+<h1>Coleta</h1>
+
+
+<h4>Novo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <!-- IMPORTANTE elemento form -->
+        <form asp-action="Create" asp-controller="Coleta">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ColetaId" class="control-label"></label>
+                <!-- IMPORTANTE elementos input asp-for="Nome da Propriedade do Model" -->
+                <input asp-for="ColetaId" class="form-control" />
+                <span asp-validation-for="ColetaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ColetaNome" class="control-label"></label>
+                <input asp-for="ColetaNome" class="form-control" />
+                <span asp-validation-for="ColetaNome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ColetaDescricao" class="control-label"></label>
+                <input asp-for="ColetaDescricao" class="form-control" />
+                <span asp-validation-for="ColetaDescricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataColeta" class="control-label"></label>
+                <input asp-for="DataColeta" class="form-control" />
+                <span asp-validation-for="DataColeta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacao" class="control-label"></label>
+                <input asp-for="Observacao" class="form-control" />
+                <span asp-validation-for="Observacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RepresentanteId" class="control-label"></label>
+                <input asp-for="RepresentanteId" class="form-control" />
+                <span asp-validation-for="RepresentanteId" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\Fiap.web.apidotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\views\\coleta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:views\\coleta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\controllers\\coletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:controllers\\coletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\views\\coleta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:views\\coleta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\views\\coleta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:views\\coleta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\models\\representantemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:models\\representantemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|d:\\projetos\\fiap.web.apidotnet\\models\\coletamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45922069-7C38-4641-A00D-577E49D5C54A}|Fiap.web.apidotnet.csproj|solutionrelative:models\\coletamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T19:10:22.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T19:05:25.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\Coleta\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coleta\\Edit.cshtml",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\Coleta\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Coleta\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T17:41:42.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\Coleta\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coleta\\Create.cshtml",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\Coleta\\Create.cshtml",
+              "RelativeToolTip": "Views\\Coleta\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T04:49:42.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\Coleta\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coleta\\Index.cshtml",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Views\\Coleta\\Index.cshtml",
+              "RelativeToolTip": "Views\\Coleta\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAD4vzMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T03:47:36.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepresentanteModel.cs",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Models\\RepresentanteModel.cs",
+              "RelativeDocumentMoniker": "Models\\RepresentanteModel.cs",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Models\\RepresentanteModel.cs",
+              "RelativeToolTip": "Models\\RepresentanteModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:07:17.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ColetaModel.cs",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Models\\ColetaModel.cs",
+              "RelativeDocumentMoniker": "Models\\ColetaModel.cs",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Models\\ColetaModel.cs",
+              "RelativeToolTip": "Models\\ColetaModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:01:00.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColetaController.cs",
+              "DocumentMoniker": "D:\\Projetos\\Fiap.web.apidotnet\\Controllers\\ColetaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ColetaController.cs",
+              "ToolTip": "D:\\Projetos\\Fiap.web.apidotnet\\Controllers\\ColetaController.cs",
+              "RelativeToolTip": "Controllers\\ColetaController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T02:58:13.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
