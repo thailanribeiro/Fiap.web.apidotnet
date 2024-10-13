@@ -99,19 +99,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thail\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Fiap.web.apidotnet\\Fiap.web.apidotnet.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\Fiap.web.apidotnet\\Fiap.web.apidotnet.csproj",
       "projectName": "Fiap.web.apidotnet",
-      "projectPath": "D:\\Projetos\\Fiap.web.apidotnet\\Fiap.web.apidotnet.csproj",
-      "packagesPath": "C:\\Users\\thail\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Fiap.web.apidotnet\\obj\\",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\Fiap.web.apidotnet\\Fiap.web.apidotnet.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\Fiap.web.apidotnet\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\thail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
